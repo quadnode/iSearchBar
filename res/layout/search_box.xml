@@ -1,0 +1,41 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/searchbox_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/blue1"
+    android:orientation="horizontal"
+    android:padding="10dip" >
+
+    <EditText
+        android:id="@+id/search_box"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/edit_text_without_border"
+        android:hint="Search"
+        android:paddingLeft="35dp"
+        android:paddingRight="35dp"
+        android:singleLine="true"
+        android:textSize="15dip"
+        android:textStyle="italic"
+        android:imeOptions="actionDone" />
+
+    <ImageView
+        android:id="@+id/search_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:clickable="true"
+        android:padding="10dp"
+        android:src="@drawable/search" />
+
+    <ImageView
+        android:id="@+id/clear_search_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|right"
+        android:clickable="true"
+        android:padding="10dp"
+        android:src="@drawable/clear"
+        android:visibility="gone" />
+
+</FrameLayout>
