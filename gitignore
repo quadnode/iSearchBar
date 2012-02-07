@@ -1,0 +1,7 @@
+bin/classes
+bin/res
+bin/*.dex
+bin/*.ap_
+.DS_Store
+.classpath
+.project
