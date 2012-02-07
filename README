@@ -1,0 +1,12 @@
+An Android app which have a search bar like iphone
+
+If you want to implement this search bar in your code, You need to follow these steps:-
+1.) Include the Layout (seach_box.xml) in required layout file.
+2.) Extend "SearchBarExampleActivity" class and thats it.
+
+Note:- If you want to perform some task while typing, override the method "onTextChanged".
+
+Love your feedback about it. 
+
+Contributer :
+Kapil @ QuadNode Technologies
